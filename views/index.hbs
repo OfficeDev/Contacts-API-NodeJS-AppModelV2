@@ -1,0 +1,24 @@
+<h1>{{title}}</h1>
+<table class="table table-striped table-hover">
+	<thead>
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Email</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each contacts}}
+			<tr>
+				<td>{{GivenName}}</td>
+				<td>{{Surname}}</td>
+				<td><a href="mailto:{{EmailAddresses.0.Address}}">{{EmailAddresses.0.Address}}</a></td>
+			</tr>
+		{{/each}}
+		{{#if restDisabled}}
+			<tr>
+				<td colspan="3">REST API is not yet supported for this mailbox.</td>
+			</tr>
+		{{/if}}
+	</tbody>
+</table>

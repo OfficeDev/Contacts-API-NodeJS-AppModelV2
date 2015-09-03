@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+<div class="row">
+	<p>This application requires that you sign in with a Microsoft account so that is can query and display your contacts stored in Microsoft services.</p>
+	<button class="btn btn-primary btn-block" onclick="login()">Sign-in with a Microsoft Account</button>
+</div>
+<script type="text/javascript">
+function login() {
+	window.location = "{{authRedirect}}".replace(/&amp;/g, "&");
+}
+</script>
