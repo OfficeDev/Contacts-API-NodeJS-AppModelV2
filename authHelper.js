@@ -1,12 +1,6 @@
 var https = require('https');
 
-var appDetails = {
-	authority: 'https://login.microsoftonline.com/common',
-	client_id: '1d9e332b-6c7d-4554-8b51-d398fef5f8a7',
-	client_secret: 'Y0tgHpYAy3wQ0eF9NPkMPOf',
-	redirect_url: 'http://localhost:5858/login',
-	scopes: 'openid+https://outlook.office.com/contacts.read+offline_access'
-};
+var appDetails = require('./config');
 
 //builds a redirect url based on app detail
 function getAuthUrl(res) {
