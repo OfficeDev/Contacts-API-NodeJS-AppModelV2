@@ -36,3 +36,5 @@ The Node.js solution was built to using express and handlebars. Two routes handl
 	- If the token is valid, cache the refresh token and send the user back to index
 	- If the token is invalid, and error must have occurred
 - If the URL doesn’t contain and authorization code, get the redirect URL for authorization and send user there
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
