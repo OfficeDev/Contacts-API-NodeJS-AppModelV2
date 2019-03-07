@@ -1,3 +1,14 @@
+---
+topic: sample
+products:
+- Office 365
+- Outlook
+languages:
+- JavaScript
+extensions:
+  contentType: samples
+  createdDate: 9/3/2015 2:30:58 PM
+---
 # Contacts API for Outlook using Node.js and the v2 App Model
 
 This repository contains a Node.js that connects to the unified Contacts API for Outlook using the v2 App Model (which handles both consumer and business accounts). A full write-up of the solution is available at [http://blogs.msdn.com/b/richard_dizeregas_blog/archive/2015/09/04/building-office-365-applications-with-node-js-and-the-azure-ad-v2-app-model.aspx](http://blogs.msdn.com/b/richard_dizeregas_blog/archive/2015/09/04/building-office-365-applications-with-node-js-and-the-azure-ad-v2-app-model.aspx "http://blogs.msdn.com/b/richard_dizeregas_blog/archive/2015/09/04/building-office-365-applications-with-node-js-and-the-azure-ad-v2-app-model.aspx")
